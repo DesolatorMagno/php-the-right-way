@@ -21,7 +21,7 @@ Las operaciones básicas con cadenas, como la concatenación de dos cadenas o la
 no necesitan nada especial de UTF-8. Sin embargo, la mayoría de las funciones para el manejo de cadenas como
 `strpos()` o `strlen()`, necesitan consideración especial. A menudo, estas funciones tienen su contraparte con
 funciones `mb_*` como por ejemplo: `mb_strpos()` o `mb_strlen()`. Estas funciones `mb_*` están disponibles para usted
-vía la extensión para el manejo de [Cadenas de Caracteres Cadenas Multibyte](http://php.net/manual/es/book.mbstring.php),
+vía la extensión para el manejo de [Cadenas de Caracteres Cadenas Multibyte](https://php.net/manual/es/book.mbstring.php),
 y están diseñadas específicamente para operar con cadenas Unicode.
 
 Siempre se debe utilizar las funciones `mb_*` para trabajar con cadenas Unicode. Por ejemplo, si usa `substr()` sobre
@@ -152,19 +152,19 @@ header('Content-Type: text/html; charset=UTF-8'); // Innecesario si el default_c
 
 ### Further reading
 
-* [PHP Manual: Operadores de Cadenas](http://php.net/manual/es/language.operators.string.php)
-* [PHP Manual: Funciones de Cadenas](http://php.net/manual/es/ref.strings.php)
-    * [`strpos()`](http://php.net/manual/es/function.strpos.php)
-    * [`strlen()`](http://php.net/manual/es/function.strlen.php)
-    * [`substr()`](http://php.net/manual/es/function.substr.php)
-* [PHP Manual: Funciones de Cadenas de Caracteres Multibyte](http://php.net/manual/es/ref.mbstring.php)
-    * [`mb_strpos()`](http://php.net/manual/es/function.mb-strpos.php)
-    * [`mb_strlen()`](http://php.net/manual/es/function.mb-strlen.php)
-    * [`mb_substr()`](http://php.net/manual/es/function.mb-substr.php)
-    * [`mb_internal_encoding()`](http://php.net/manual/es/function.mb-internal-encoding.php)
-    * [`mb_http_output()`](http://php.net/manual/es/function.mb-http-output.php)
-    * [`htmlentities()`](http://php.net/manual/es/function.htmlentities.php)
-    * [`htmlspecialchars()`](http://www.php.net/manual/es/function.htmlspecialchars.php)
+* [PHP Manual: Operadores de Cadenas](https://php.net/manual/es/language.operators.string.php)
+* [PHP Manual: Funciones de Cadenas](https://php.net/manual/es/ref.strings.php)
+    * [`strpos()`](https://php.net/manual/es/function.strpos.php)
+    * [`strlen()`](https://php.net/manual/es/function.strlen.php)
+    * [`substr()`](https://php.net/manual/es/function.substr.php)
+* [PHP Manual: Funciones de Cadenas de Caracteres Multibyte](https://php.net/manual/es/ref.mbstring.php)
+    * [`mb_strpos()`](https://php.net/manual/es/function.mb-strpos.php)
+    * [`mb_strlen()`](https://php.net/manual/es/function.mb-strlen.php)
+    * [`mb_substr()`](https://php.net/manual/es/function.mb-substr.php)
+    * [`mb_internal_encoding()`](https://php.net/manual/es/function.mb-internal-encoding.php)
+    * [`mb_http_output()`](https://php.net/manual/es/function.mb-http-output.php)
+    * [`htmlentities()`](https://php.net/manual/es/function.htmlentities.php)
+    * [`htmlspecialchars()`](https://www.php.net/manual/es/function.htmlspecialchars.php)
 * [Stack Overflow: What factors make PHP Unicode-incompatible?](https://stackoverflow.com/questions/571694/what-factors-make-php-unicode-incompatible)
 * [Stack Overflow: Best practices in PHP and MySQL with international strings](https://stackoverflow.com/questions/140728/best-practices-in-php-and-mysql-with-international-strings)
 * [How to support full Unicode in MySQL databases](https://mathiasbynens.be/notes/mysql-utf8mb4)

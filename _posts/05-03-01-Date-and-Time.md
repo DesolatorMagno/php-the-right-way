@@ -76,6 +76,6 @@ probar  código gracias a que permite simular cualquier fecha y hora que se dese
 * [Leer acerca de la clase DateTime][datetime]
 * [Como formatear la fecha][dateformat] (Opciones de los formatos aceptados para una fecha)
 
-[datetime]: http://php.net/manual/es/book.datetime.php
-[dateformat]: http://php.net/manual/es/function.date.php
+[datetime]: https://php.net/manual/es/book.datetime.php
+[dateformat]: https://php.net/manual/es/function.date.php
 
